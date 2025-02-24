@@ -1,4 +1,14 @@
-bluez (5.37-0ubuntu5.3) xenial-security; urgency=medium
+bluez (5.37-0ubuntu5.5) xenial; urgency=medium
+
+  * add the new package of hello for print some test informations
+    - add the test print information in the process of installation.
+    - add the test print information in the script of testing.sh
+      and install the script of test.sh in /usr/bin.
+      The test print information of testing.sh can be printed to STDERR.
+
+ -- zhengwu0330 <zhengwu0330@hotmail.com>  Sun, 23 Feb 2025 13:33:29 +0800
+
+bluez (5.37-0ubuntu5.3) xenial; urgency=medium
 
   * SECURITY UPDATE: buffer overflow in parse_line function
     - debian/patches/CVE-2016-7837.patch: make sure we don't write past the
@@ -21,7 +31,7 @@ bluez (5.37-0ubuntu5.3) xenial-security; urgency=medium
 
  -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Mon, 23 Mar 2020 08:39:08 -0400
 
-bluez (5.37-0ubuntu5.1) xenial-security; urgency=medium
+bluez (5.37-0ubuntu5.1) xenial; urgency=medium
 
   * SECURITY UPDATE: information disclosure in service discovery
     protocol daemon.
